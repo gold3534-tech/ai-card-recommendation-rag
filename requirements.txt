@@ -11,3 +11,4 @@ tiktoken==0.8.0
 
 scikit-learn==1.5.2
 streamlit==1.40.1
+rank-bm25==0.2.2
