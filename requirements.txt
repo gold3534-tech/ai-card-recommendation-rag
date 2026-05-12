@@ -6,7 +6,7 @@ openai==1.55.3
 langchain==0.3.7
 langchain-openai==0.2.8
 langchain-community==0.3.7
-chromadb==0.5.20
+chromadb==1.5.5
 tiktoken==0.8.0
 
 scikit-learn==1.5.2
