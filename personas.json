@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "성수동 힙스터",
+    "description": "팝업스토어, 맛집, 카페 탐방을 즐기는 트렌디한 소비자",
+    "query": "성수동 팝업스토어 투어를 즐겨 연 300만 원 이상 의류와 소품 구입에 지출하고, 핫플레이스 맛집과 카페 탐방으로 월 평균 40만 원, 애플페이 등 간편결제를 활용한 문화 전시 및 공연 관람에 월 15만 원 이상 소비함",
+    "conditions": {
+      "monthly_spend": 800000,
+      "benefit_categories": [
+        "shopping",
+        "cafe",
+        "easy_pay",
+        "leisure",
+        "entertainment"
+      ],
+      "card_type": "both",
+      "annual_fee_max": null
+    },
+    "ground_truth_cards": [
+      {
+        "card_name": "팟(pod) 카드",
+        "bank": "BNK부산은행",
+        "card_type": "신용",
+        "ground_truth_text": "팟(pod) 카드는 전월실적 40만원, 연회비 10,000원으로 온라인쇼핑(무신사, 에이블리, 쿠팡 등) 10% 할인(월 2회), 스타벅스 10% 할인(월 2회), 네이버페이·카카오페이·삼성페이 간편결제 10% 할인(월 2회) 혜택을 제공합니다. 월 통합 할인 한도는 전월실적 40만원 이상 시 2만원, 80만원 이상 시 4만원입니다."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "갓생사는 사회초년생",
+    "description": "자기계발, 헬스, 대중교통/편의점 위주 소비자",
+    "query": "자기계발을 위해 교육비로 연 120만원, 헬스장 월 20만원, 대중교통/편의점/식비로 월 60만원, 이렇게 총 월 90만원 정도 소비함",
+    "conditions": {
+      "monthly_spend": 800000,
+      "benefit_categories": [
+        "education",
+        "beauty_fitness",
+        "transport",
+        "mart_convenience",
+        "food"
+      ],
+      "card_type": "both",
+      "annual_fee_max": null
+    },
+    "ground_truth_cards": [
+      {
+        "card_name": "OK캐쉬백 썸(SUM)타는 우리체크카드",
+        "bank": "우리카드",
+        "card_type": "체크",
+        "ground_truth_text": "OK캐쉬백 썸(SUM)타는 우리체크카드는 전월실적 250,000원, 연회비 0원으로 YBM시사·파고다·해커스어학원 10% 할인(월 1회, 건당 최대 5천원), 전국 시내버스·지하철 2천원 할인(월 1회), 편의점(CU)·올리브영 5% 할인(월 2회), 맥도날드·롯데리아·버거킹 등 패스트푸드 10% 할인(월 2회) 혜택을 제공합니다."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "서울자가에 대기업 다니는 김부장",
+    "description": "골프, 자차, 외식 위주 고소득 소비자",
+    "query": "연 10회 이상 골프를 즐기며 취미 관련 비용으로 연 500만 원 이상 지출하고, 대형 세단 주유 및 유지비로 월 평균 40만 원, 가족 외식과 경조사비 등 품격 유지를 위해 월 200만 원 이상 소비함",
+    "conditions": {
+      "monthly_spend": 2800000,
+      "benefit_categories": [
+        "leisure",
+        "auto_highway",
+        "food"
+      ],
+      "card_type": "both",
+      "annual_fee_max": null
+    },
+    "ground_truth_cards": [
+      {
+        "card_name": "다담카드",
+        "bank": "KB국민카드",
+        "card_type": "신용",
+        "ground_truth_text": "다담카드는 전월실적 30만원 이상, 연회비 15,000원으로 골프(골프 연습장) 업종 7% 포인트리 적립해주고, SK주유소(충전소) 리터당 60원 청구할인 - 월 20만원 이용금액까지 할인 제공, 음식/편의점 업종 5% 포인트리 적립 헤택을 제공합니다."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "은퇴후 전원생활 하시는 어르신",
+    "description": "병원, 식사 위주 은퇴자",
+    "query": "등산을 즐겨 아웃도어 의류 구입에 연 200만 원 이상 지출하고, 오랜 지인들과의 점심 식사 및 동네 단골 식당 이용으로 월 평균 50만 원, 주기적인 병원 진료와 건강 보조제 구매 및 자녀들의 경조사 챙기기로 월 100만 원 이상 소비함",
+    "conditions": {
+      "monthly_spend": 1600000,
+      "benefit_categories": [
+        "shopping",
+        "food",
+        "medical"
+      ],
+      "card_type": "both",
+      "annual_fee_max": null
+    },
+    "ground_truth_cards": [
+      {
+        "card_name": "신한카드 Mr.Life",
+        "bank": "신한카드",
+        "card_type": "신용",
+        "ground_truth_text": "신한카드 Mr.Life는 전월실적 300,000원, 연회비 15,000원으로 온라인쇼핑(옥션, G마켓, 쿠팡 등) 10% 할인, 한식·양식·일식 등 식음료 10% 할인, 병원/약국 10% 할인(동물병원 제외) 혜택을 제공합니다. Night 할인서비스로 오후 9시~오전 9시 쇼핑·식음료 10% 할인도 제공합니다."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "30대 알뜰 주부",
+    "description": "온라인쇼핑, 육아, 공과금, 통신비 위주 주부",
+    "query": "마켓컬리, 쿠팡 등 온라인 장보기와 생필품 구매에 월 100만 원 이상 지출하며, 자녀의 영유아 교육비 및 장난감 대여 등 양육 관련 비용으로 월 평균 80만원, 아파트 관리비와 도시가스 등 각종 공과금 및 통신비 자동이체로 월 40만 원 이상 소비함",
+    "conditions": {
+      "monthly_spend": 2200000,
+      "benefit_categories": [
+        "mart_convenience",
+        "shopping",
+        "education",
+        "utility_rental",
+        "telecom"
+      ],
+      "card_type": "both",
+      "annual_fee_max": null
+    },
+    "ground_truth_cards": [
+      {
+        "card_name": "국민행복 삼성카드 V2",
+        "bank": "삼성카드",
+        "card_type": "신용",
+        "ground_truth_text": "국민행복 삼성카드 V2는 전월실적 0원, 연회비 0원으로 쇼핑 7% 결제일 할인 - 백화점·프리미엄 아울렛·할인점·온라인쇼핑몰·생활잡화·신선식품 배송 7% 결제일할인, 생활요금 7% 결제일할인 - 아파트 관리비·도시가스요금·전기요금·4대 사회보험·보험·통신·렌탈 자동납부 연결 시 7% 결제일할인, 보육 7% 결제일할인 - 의료·산후조리원·학원·학습지·온라인서점·어린이집·유치원·주유 7% 결제일할인 혜택을 제공합니다."
+      }
+    ]
+  }
+]
